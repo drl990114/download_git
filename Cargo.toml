@@ -1,0 +1,12 @@
+[package]
+name = "git_download"
+version = "0.0.1"
+authors = ["halodong"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fs_extra = "1.2.0"
+regex = "1"
+tempfile = "3"
