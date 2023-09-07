@@ -4,10 +4,16 @@ lets you download one or multiple directories from a Git repository.
 
 ## Usage
 
-```rs
-use git_download;
+```shell
+cargo add download_git
+```
 
-git_download::download("https://github.com/twbs/bootstrap.git:main", git_download::DownloadOptions {
+## Example
+
+```rs
+use download_git;
+
+download_git::download("https://github.com/twbs/bootstrap.git:main", download_git::DownloadOptions {
   target_files: Some(vec!["dist".to_string(), "README.md".to_string()]),
   dest_path: String::from(TEST_FOLDER)
 }).unwrap();
