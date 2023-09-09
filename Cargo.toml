@@ -1,6 +1,6 @@
 [package]
 name = "download_git"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["halodong"]
 edition = "2021"
 categories = ["no-std"]
